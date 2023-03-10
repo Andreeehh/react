@@ -41,7 +41,7 @@ export class Home extends Component {
     return (
       <section className="container">
         <Posts posts={posts} />
-        <div class="button-container">
+        <div className="button-container">
           <Button
             text="Load more posts"
             onClick={this.loadMorePosts}
